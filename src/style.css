@@ -1,0 +1,60 @@
+/* card */
+.buttons{
+    position:absolute;
+    top:30%;
+    left:30%;
+    display:none;
+}
+
+.card:hover .buttons{
+    display:block;
+}
+
+.buttons i{
+    font-size: 20px; 
+    color: black; 
+    background-color: #f6f6f6; 
+    border: 1px solid black; 
+}
+
+.buttons i:hover{
+    background-color: black;
+    color: white;
+}
+
+/* About us */
+
+.home{
+    color:white !important;
+}
+
+.home:hover{
+    color:#EF3636;
+    text-decoration: none;
+}
+
+.name:hover{
+    color:#EF3636;
+}
+
+.card-body .bi{
+    color:#888888;
+     font-size:15px;
+     border:1px solid #888888;
+     border-radius:50%;
+}
+
+.card-body .bi:hover{
+    color:#EF3636;
+    border-color: #EF3636;
+}
+
+/* footer */
+li a{
+    font-size: 15px;
+     color: black;
+}
+
+li a:hover{
+    color:#EF3636;
+}
